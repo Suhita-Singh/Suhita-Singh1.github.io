@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="wstyle.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter a city name" id="city" value="mumbai" aria-label="city text"/>
+            <button id="search-btn"><img src="search.png" alt="Search Icon"></button>
+        </div>
+        <div id="result">
+            <img id="weatherIcon" width="120px" height="120px" alt="">
+
+  <h2></h2>
+  <h4 class="weather"></h4>
+  <h4 class="desc"></h4>
+  <h1></h1>
+  <div class="temp-container">
+    <div>
+      <h4 class="title">min</h4>
+      <h4 class="temp"></h4>
+    </div>
+    <div>
+      <h4 class="title">max</h4>
+      <h4 class="temp"></h4>
+    </div>
+  </div>
+        </div>
+        <div class="weather">
+            <div class="details">
+                <div class="col">
+                    <img src="free-humidity-4596680-3796777.webp" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="172922.png" alt="" >
+                    <div>
+                        
+                        <p class="wind">15 km/hr</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="key.js"></script>
+    <script src="wscript.js"></script>
+</body>
+</html>
